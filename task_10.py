@@ -4,7 +4,7 @@ x2 = int(input())
 y2 = int(input())
 stepX = (x1-x2)
 stepY = (y1 - y2)
-if abs(stepX) <= 1 and abs(stepY) <= 1:
-    print("YES")
+if abs(stepX) == abs(stepY) or x1 == x2 or y1 == y2:
+    print('YES')
 else:
-    print("NO")
+    print('NO')

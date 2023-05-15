@@ -1,5 +1,8 @@
 a = int(input())
 b = int(input())
 c = int(input())
-sum = int(a // 2 + b // 2 + c // 2 + a % 2 + b % 2 + c % 2)
-print(sum)
+d = int(input())
+if a == c or b == d:
+    print("YES")
+else:
+    print("NO")

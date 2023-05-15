@@ -1,4 +1,5 @@
 n = int(input())
-hour = n % (60 * 24) // 60
-minutes = n % 60
-print(hour, minutes)
+if n % 4 == 0 and not n % 100 == 0 or n % 400 == 0:
+    print("YES")
+else:
+    print("NO")

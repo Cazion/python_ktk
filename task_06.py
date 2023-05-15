@@ -1,3 +1,9 @@
-num = int(input())
-print("The next number for the number " + str(num) + " is " + str(num + 1))
-print("The previous number for the number " + str(num) + " is " + str(num - 1))
+a = int(input())
+b = int(input())
+c = int(input())
+if a == b and a == c:
+    print(3)
+elif a == b and a != c or b == c and a != b or a == c and b != c:
+    print(2)
+else:
+    print(0)
