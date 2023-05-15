@@ -1,10 +1,6 @@
-x1 = int(input())
-y1 = int(input())
-x2 = int(input())
-y2 = int(input())
-stepX = (x1-x2)
-stepY = (y1 - y2)
-if abs(stepX) == abs(stepY) or x1 == x2 or y1 == y2:
-    print('YES')
-else:
-    print('NO')
+n = int(input())
+last_num = 0
+for i in range(1, n+1):
+    last_num += i
+    print(last_num)
+    last_num *= 10

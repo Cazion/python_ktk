@@ -1,5 +1,5 @@
-n = int(input())
-if n % 4 == 0 and not n % 100 == 0 or n % 400 == 0:
-    print("YES")
-else:
-    print("NO")
+result = 0
+for i in range(10):
+    num = int(input())
+    result += num
+print(result)

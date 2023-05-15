@@ -1,9 +1,6 @@
-a = int(input())
-b = int(input())
-c = int(input())
-if a == b and a == c:
-    print(3)
-elif a == b and a != c or b == c and a != b or a == c and b != c:
-    print(2)
-else:
-    print(0)
+from math import pow
+nums = int(input())
+result = 0
+for i in range(1, nums+1):
+    result += int(pow(i, 3))
+print(result)

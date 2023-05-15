@@ -1,6 +1,4 @@
 a = int(input())
 b = int(input())
-if a > b:
-    print(b)
-else:
-    print(a)
+for i in range(a, b+1):
+    print(i, end=' ')

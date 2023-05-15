@@ -1,10 +1,5 @@
-a = int(input())
-b = int(input())
-c = int(input())
-
-if a <= b and a <= c:
-    print(a)
-elif b <= a and b <= c:
-    print(b)
-else:
-    print(c)
+nums = int(input())
+result = 0
+for i in range(nums):
+    result += int(input())
+print(result)

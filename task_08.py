@@ -1,10 +1,7 @@
-x1 = int(input())
-y1 = int(input())
-x2 = int(input())
-y2 = int(input())
-stepX = (x1-x2)
-stepY = (y1 - y2)
-if abs(stepX) <= 1 and abs(stepY) <= 1:
-    print("YES")
-else:
-    print("NO")
+n = int(input())
+fac_mul = 1
+fac_sum = 0
+for i in range(1, n+1):
+    fac_mul *= i
+    fac_sum += fac_mul
+print(fac_sum)

@@ -1,8 +1,5 @@
-a = int(input())
-b = int(input())
-c = int(input())
-d = int(input())
-if a == c or b == d:
-    print("YES")
-else:
-    print("NO")
+n = int(input())
+result = 1
+for i in range(1, n+1):
+    result *= i
+print(result)
