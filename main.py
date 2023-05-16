@@ -61,30 +61,30 @@ def rec_fib(num, fib_nums):
     return fib_nums
 
 
-result = calculator(27, 3, "-")
-print(result)
+res = calculator(27, 3, "-")
+print(res)
 
-result = reverse("Hello, World!")
-print(result)
+res = reverse("Abrikoses")
+print(res)
 
-result = robot_hello("Vlad")
-print(result)
+res = robot_hello("Ivan")
+print(res)
 
-result = robot_hello("Dima")
-print(result)
+res = robot_hello("Petya")
+print(res)
 
-result = robot_hello("Angelina")
-print(result)
+res = robot_hello("Anna")
+print(res)
 
-result = robot_hello("Vlad")
-print(result)
+res = robot_hello("Ivan")
+print(res)
 
-result = robot_hello("Angelina")
-print(result)
+res = robot_hello("Anna")
+print(res)
 
 while_counter()
 
 num = 0
 rec_counter(num)
 
-result = rec_fib([0, 1])
+res = rec_fib([0, 1])
